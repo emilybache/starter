@@ -1,8 +1,6 @@
-//
-// Created by Emily Bache on 2020-01-13.
-//
+#ifndef SAMPLE_H
+#define SAMPLE_H
 
-#ifndef LIFTKATA_SAMPLE_H
-#define LIFTKATA_SAMPLE_H
+// write your code here
 
-#endif //LIFTKATA_SAMPLE_H
+#endif //SAMPLE_H
