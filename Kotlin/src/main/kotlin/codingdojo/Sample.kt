@@ -1,0 +1,5 @@
+package codingdojo;
+
+class Sample {
+    
+}
