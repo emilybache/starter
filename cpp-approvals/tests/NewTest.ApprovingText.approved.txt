@@ -1,1 +1,0 @@
-Approval Tests can verify text via the golder master method 
