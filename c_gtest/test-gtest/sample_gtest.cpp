@@ -1,6 +1,9 @@
 #include <gtest/gtest.h>
 
+extern "C"
+{
 #include "sample.h"
+}
 
 using namespace std;
 
