@@ -12,4 +12,4 @@ To run the test:
 	npm test
 
 
-The test is deliberately created without a snapshot.
+The test is deliberately created with a non-matching snapshot and should fail.
