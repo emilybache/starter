@@ -1,7 +1,8 @@
 Starter Erlang project
 ======================
 
-You will need to install [erlang](https://www.erlang.org/), and [rebar3](https://github.com/erlang/rebar3). I recommend following the instructions from JetBrains: [Getting Started with Erlang](https://www.jetbrains.com/help/idea/getting-started-with-erlang.html).
+You will need to install [erlang](https://www.erlang.org/), and [rebar3](https://github.com/erlang/rebar3). I recommend using JetBrains IntelliJ [Erlang plugin](https://www.jetbrains.com/help/idea/erlang.html).
+
 
 
 Build
@@ -12,4 +13,4 @@ Build
 Run Tests
 ---------
 
-    $ rebar3 
+    $ rebar3 eunit
