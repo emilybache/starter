@@ -4,7 +4,7 @@
 // write your code here
 
 static int foobar() {
-    return 4;
+    return 42;
 }
 
 #endif //SAMPLE_H
