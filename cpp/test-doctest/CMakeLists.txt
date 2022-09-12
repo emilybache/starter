@@ -6,14 +6,14 @@ set(SOURCE_FILES main.cpp sample_doctest.cpp)
 FetchContent_Declare(
         DocTest
         GIT_REPOSITORY https://github.com/doctest/doctest.git
-        GIT_TAG        v2.4.8)
+        GIT_TAG        v2.4.9)
 FetchContent_MakeAvailable(DocTest)
 
 # approvals
 FetchContent_Declare(
         ApprovalTests
         GIT_REPOSITORY https://github.com/approvals/ApprovalTests.cpp
-        GIT_TAG        v.10.5.1)
+        GIT_TAG        v.10.12.2)
 FetchContent_MakeAvailable(ApprovalTests)
 
 add_executable(${TEST_NAME})
