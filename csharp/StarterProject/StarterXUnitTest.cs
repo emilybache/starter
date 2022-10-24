@@ -5,12 +5,12 @@ using Xunit;
 
 namespace StarterProject
 {
-    public class StarterTest
+    public class StarterXUnitTest
     {
         [Fact]
-        public void testSomething()
+        public void TestSomething()
         {
-
+            Assert.Equal(true, false);
         }
     }
 }
