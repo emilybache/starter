@@ -10,7 +10,7 @@ static void test_add(void **state)
     assert_int_equal(2, 8);
 }
 
-int main() {
+int main(void) {
     const struct CMUnitTest tests[] =
             {
                     cmocka_unit_test(test_add),
