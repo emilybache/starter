@@ -7,7 +7,7 @@
 
 static void test_add(void **state)
 {
-    assert_int_equal(2, 8);
+    assert_int_equal(42, add(1,2));
 }
 
 int main(void) {

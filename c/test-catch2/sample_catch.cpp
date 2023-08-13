@@ -9,7 +9,7 @@ extern "C"
 
 TEST_CASE ("Sample") {
     SECTION("sample section") {
-        REQUIRE(true == false);
+        REQUIRE(42 == add(1,2));
     }
 }
 

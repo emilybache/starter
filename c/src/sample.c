@@ -1,3 +1,5 @@
 #include "sample.h"
 
-// write your code here
+int add(int left, int right) {
+    return left + right;
+}
