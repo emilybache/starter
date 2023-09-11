@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace StarterProject;
+namespace TestStarter;
 
 using NUnit;
 
