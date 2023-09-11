@@ -1,8 +1,7 @@
 ﻿using System;
 
-namespace StarterProject
+namespace Starter;
+
+public class Class1
 {
-    public class Class1
-    {
-    }
 }
