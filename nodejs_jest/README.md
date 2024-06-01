@@ -1,7 +1,9 @@
-Javascript Starter Project
-==========================
+Sample Project
+==============
 
-With nodejs and jest.
+For exercise instructions see (top level README)[../README.md]
+
+This project uses nodejs and jest.
 
 To build:
 

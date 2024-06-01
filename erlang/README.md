@@ -1,6 +1,8 @@
 Starter Erlang project
 ======================
 
+For exercise instructions see [top level README](../README.md)
+
 You will need to install [erlang](https://www.erlang.org/), and [rebar3](https://github.com/erlang/rebar3). I recommend using JetBrains IntelliJ [Erlang plugin](https://www.jetbrains.com/help/idea/erlang.html).
 
 
