@@ -1,6 +1,6 @@
 {
-    "name": "emilybache/yatzy-refactoring-kata",
-    "description": "Kata to practice refactoring",
+    "name": "emilybache/sample-kata",
+    "description": "A kata starter.",
     "license": "MIT",
     "require": {
         "php": "^8.0"
