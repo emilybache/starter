@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Yatzy\\": "src/"
+            "Sample\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yatzy\\Tests\\": "tests/"
+            "Sample\\Tests\\": "tests/"
         }
     },
     "scripts": {
