@@ -13,6 +13,6 @@ class SampleTest extends TestCase
     {
         $expected = 15;
         $actual = 42;
-        $this->assertSame($expected, $actual);
+        self::assertSame($expected, $actual);
     }
 }
