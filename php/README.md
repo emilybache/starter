@@ -19,7 +19,6 @@ create a local copy of this project on your computer.
 Install all the dependencies using composer
 
 ```sh
-cd Yatzy-Refactoring-Kata/php
 composer install
 ```
 
