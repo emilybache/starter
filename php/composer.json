@@ -23,7 +23,7 @@
         }
     },
     "scripts": {
-        "tests": "phpunit",
+        "test": "phpunit --no-coverage",
         "test-coverage": "phpunit --coverage-html build/coverage",
         "check-cs": "ecs check --ansi",
         "fix-cs": "ecs check --fix --ansi",
