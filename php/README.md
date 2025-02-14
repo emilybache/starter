@@ -24,7 +24,7 @@ composer install
 
 Run all the tests
 
-```shell script
+```sh
 composer tests
 ```
 
