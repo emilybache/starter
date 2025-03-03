@@ -6,7 +6,7 @@ See the [top level readme](../README.md) for general information about this Kata
 
 The kata uses:
 
-- [PHP 7.3 or 7.4 or 8.0+](https://www.php.net/downloads.php)
+- [PHP 8.0+](https://www.php.net/downloads.php)
 - [Composer](https://getcomposer.org)
 
 Recommended:
@@ -19,13 +19,12 @@ create a local copy of this project on your computer.
 Install all the dependencies using composer
 
 ```sh
-cd Yatzy-Refactoring-Kata/php
 composer install
 ```
 
 Run all the tests
 
-```shell script
+```sh
 composer tests
 ```
 
