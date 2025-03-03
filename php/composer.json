@@ -26,6 +26,7 @@
         "test": "phpunit --no-coverage",
         "tests": "@composer test",
         "test-coverage": "phpunit --coverage-html build/coverage",
+        "tests-coverage": "@composer test-coverage",
         "check-cs": "ecs check --ansi",
         "fix-cs": "ecs check --fix --ansi",
         "phpstan": "phpstan analyse --ansi"
