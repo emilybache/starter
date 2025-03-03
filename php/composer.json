@@ -24,6 +24,7 @@
     },
     "scripts": {
         "test": "phpunit --no-coverage",
+        "tests": "@composer test",
         "test-coverage": "phpunit --coverage-html build/coverage",
         "check-cs": "ecs check --ansi",
         "fix-cs": "ecs check --fix --ansi",
