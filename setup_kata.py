@@ -72,6 +72,7 @@ def list_katas() -> None:
 def clone_repository(url: str, target_dir: str) -> None:
     """
     Clone a git repository to the specified directory if it doesn't exist.
+    If the repository already exists, update it with git pull.
 
     Args:
         url: Repository URL
@@ -79,11 +80,15 @@ def clone_repository(url: str, target_dir: str) -> None:
     """
     target_path = Path(target_dir)
     if target_path.exists():
-        print(f"Repository already exists in {target_dir}, skipping clone...")
-        return
-
-    print(f"Cloning {url} into {target_dir}...")
-    subprocess.run(['git', 'clone', url, target_dir], check=True)
+        print(f"Repository exists in {target_dir}, updating...")
+        try:
+            subprocess.run(['git', 'pull'], cwd=target_dir, check=True)
+            print(f"Successfully updated {target_dir}")
+        except subprocess.CalledProcessError as e:
+            print(f"Error updating repository: {e}")
+    else:
+        print(f"Cloning {url} into {target_dir}...")
+        subprocess.run(['git', 'clone', url, target_dir], check=True)
 
 
 def setup_kata(kata_name: str) -> None:
@@ -155,4 +160,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
