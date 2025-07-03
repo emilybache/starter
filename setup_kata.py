@@ -27,7 +27,7 @@ def init_venv(path: Path) -> None:
     requirements_file = path / 'requirements.txt'
     if requirements_file.exists():
         print("Installing requirements...")
-        subprocess.run([str(pip_path), 'install', '-r', 'requirements.txt'], cwd=path, check=True)
+        subprocess.run(['pip', 'install', '-r', 'requirements.txt'], cwd=path, check=True)
         print("Requirements installed successfully")
     else:
         print("No requirements.txt found, skipping package installation")
