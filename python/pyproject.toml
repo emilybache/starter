@@ -1,0 +1,9 @@
+[project]
+name = "starter"
+version = "1.0"
+readme = "README.md"
+dependencies = [
+    "pytest",
+    "approvaltests",
+    "coverage",
+]

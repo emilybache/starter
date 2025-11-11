@@ -7,7 +7,7 @@ Suggestion: create a python virtual environment for this project. See the [docum
 
 install requirements:
 
-    pip install --upgrade -r requirements.txt
+    pip install --upgrade .
 
 run tests:
 
