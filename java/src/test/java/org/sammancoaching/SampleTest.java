@@ -1,4 +1,4 @@
-package codingdojo;
+package org.sammancoaching;
 
 import org.junit.jupiter.api.Test;
 

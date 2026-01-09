@@ -1,4 +1,4 @@
-package codingdojo;
+package org.sammancoaching;
 
 import org.approvaltests.Approvals;
 import org.junit.jupiter.api.Test;
