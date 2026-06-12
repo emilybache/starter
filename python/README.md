@@ -1,14 +1,25 @@
 Sample Project
 ==============
 
-For exercise instructions see (top level README)[../README.md]
+For exercise instructions see [top level README](../README.md)
 
-Suggestion: create a python virtual environment for this project. See the [documentation](https://docs.python.org/3/library/venv.html)
+### Create and activate virtual environment
 
-install requirements:
+On macOS/Linux:
 
-    pip install --upgrade .
+    python3 -m venv .venv
+    source .venv/bin/activate
 
-run tests:
+On Windows:
 
-    python -m pytest
+    python -m venv .venv
+    .venv\Scripts\activate
+
+### Install dependencies
+
+    pip install --upgrade pip
+    pip install -e .
+
+## Run tests
+
+    pytest
